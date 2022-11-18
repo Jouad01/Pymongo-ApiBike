@@ -11,7 +11,7 @@ app = FastAPI()
 def startup_db_client():
     app.mongodb_client = MongoClient(config["ATLAS_URI"])
     app.database = app.mongodb_client[config["DB_NAME"]]
-    print("Connected to the BaleaBike database!")
+    print("Connected to the BaleaBike database successfully")
 
 @app.on_event("shutdown")
 def shutdown_db_client():

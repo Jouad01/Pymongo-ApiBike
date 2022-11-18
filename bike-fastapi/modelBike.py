@@ -3,6 +3,7 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 class Bicycle(BaseModel):
+    # This is the model for the Bicycle collection in the BaleaBike database with hes attributes
     id: str = Field(default_factory=uuid.uuid4, alias="_id")
     booking : Optional[bool] = False
     price : Optional[float] = 0.0
