@@ -1,6 +1,6 @@
 # Pymongo-ApiBike
 
-The objective is to create a REST API with Python and MongoDB for a bike sharing system, using the Flask framework,
+The objective is to create a REST API with Python and MongoDB for a bike sharing system, using the FastAPI framework,
 and the PyMongo library to connect to the database and perform the CRUD operations.
 
 ## Requirements
